@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("../assets/Almora_Uttarakhand_India_2013.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+    /* background-color: white; */
+}
+
+.cont {
+    height: 100vh;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-size: 80px;
+    color: #0080FF;
+    text-transform: uppercase;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#item {
+    border: none;
+    border-radius: 4px;
+    /* background-color: #CFCDCD; */
+    background: rgba(225, 225, 225, 0.3);
+    box-shadow: 0px 0px 5px 2px rgba(99, 99, 99, 0.5);
+    filter: blur(1);
+    text-align: center;
+    width: 400px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+#submit1 {
+    margin-right: 10px; 
+    border: none;
+    border-radius: 4px;
+    height: 30px;
+    width: 30px;
+    background: #399d04f8 ;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    box-shadow: 0px 0px 5px 2px rgba(99, 99, 99, 0.5);
+}
+#submit {
+    margin-right: 10px;
+    border: none;
+    border-radius: 4px;
+    height: 30px;
+    width: 30px;
+    background: #389605fd ;
+     box-shadow: 0px 0px 5px 2px rgba(99, 99, 99, 0.5);
+}
+
+#clear {
+    border: none;
+    border-radius: 4px;
+    height: 30px;
+    width: 30px;
+    background-color: #FF0000;
+}
+
+.tble {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+    background: rgba(255, 255, 255, 0.823);
+    box-shadow: 0px 0px 5px 2px rgba(99, 99, 99, 0.5);
+    /* filter: blur(1px); */
+    /* opacity: ; */
+    text-align: center;
+    border-radius: 4px;
+    width: 600px;
+    margin-left: 90px;
+}
+
+tr {
+    margin-left: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+td {
+    /* background-color: #b2b0b06e; */
+    width: 500px;
+    height: 40px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.btn1 {
+    margin-left: 5px;
+    border: none;
+    border-radius: 4px;
+    height: 30px;
+    width: 30px;
+    background-color: #FF0000;
+}
+
+.btn2 {
+    margin-left: 5px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 4px;
+    height: 30px;
+    width: 30px;
+    background-color: #4ebb13;
+}
+.empty{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+    /* background-coslor: #CFCDCD; */
+    border-radius: 4px;
+    width: 600px;
+    /* height: 35px; */
+    margin-left: 90px;
+    text-align: center;
+}
